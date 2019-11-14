@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: lightgray;
+}
+main.grid{ 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background:lightgray;
+    margin:5px;
+}
+
+nav {
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: lightblue ;
+}
+
+{
+@media (max-width: 600px) 
+}
+    nav, article 
+    }
+
+{
+    width: 100%;
+    height: auto;
+}
+
+.Startsida{
+   background-image: url("nya.jpg");
+   background-color:black;
+    background-size: cover;
+    background-position: 40% 20%;
+}
+h1{
+    color:#B80101;
+}
+a{ 
+    color:White;
+    font-size: 20px;
+    
+}
+ul {
+ overflow: hidden;
+ background-color:#B80101;
+ list-style-type:none; 
+ background-color:rgba(255, 0, 0, 0.5);
+ padding:15px;
+}
+li{ 
+    display:inline-block;
+}
+li a{ 
+    padding:15px;
+    text-decoration:none;
+    text-shadow:2px 2px Black;
+
+}
+.KEBAB{
+    text-align: center;
+    font-size: 39px;
+    text-shadow:3px 3px Black;
+}
+.vit{
+    padding:15px;
+    text-decoration:none;
+    display:inline;
+
+}
+.VIT{
+    color:black;
+    text-shadow:2px 2px #B80101;
+    height: 300px; 
+    width: 100%;  
+}
+dd{
+    color:white;
+}
+dt{ 
+    color:white;
+}
+
+P{
+    color:Black;
+    border: 3px solid Gray; 
+    background-color:White;}
+
+th{
+    color:Black;
+}
+tr{border:3px solid black;
+}
+td{border:3px solid black;
+}
+th{border:3px solid black;
+}
+
+
+th{background-color:white;
+}
+table{width:50%;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+textarea{
+    border: 6px solid gray;
+}
+
+input type{
+    border: 6px solid gray;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    text-align: center;
+}
+body{
+
+    background-color:Black;
+}
+table, th, td {
+   border: 1px solid black;
+   border-collapse:collapse;
+   height: 30px;
+}
+
+h2{
+    color:#B80101;
+    text-shadow:3px 3px Black;
+    padding:15px;
+    text-decoration:none;
+    
+}

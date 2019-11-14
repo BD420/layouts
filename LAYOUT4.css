@@ -1,0 +1,127 @@
+ body{
+   background-image: url("nya.jpg");
+   background-color:black;
+    background-size: cover;
+    background-position: 40% 20%;
+}
+h1{
+    color:#B80101;
+}
+a{ 
+    color:White;
+    font-size: 20px;
+    
+}
+ul {
+ overflow: hidden;
+ background-color:#B80101;
+ list-style-type:none; 
+ background-color:rgba(255, 0, 0, 0.5);
+ padding:15px;
+}
+li{ 
+    display:inline-block;
+}
+li a{ 
+    padding:15px;
+    text-decoration:none;
+    text-shadow:2px 2px Black;
+
+}
+.KEBAB{
+    text-align: center;
+    font-size: 39px;
+    text-shadow:3px 3px Black;
+}
+.vit{
+    padding:15px;
+    text-decoration:none;
+    display:inline;
+
+}
+.VIT{
+    color:black;
+    text-shadow:2px 2px #B80101;
+}
+dd{
+    color:white;
+}
+dt{ 
+    color:white;
+}
+
+P{
+    color:Black;
+    border: 3px solid Gray; 
+    background-color:White;}
+
+
+th{
+    color:Black;
+}
+tr{border:3px solid black;
+}
+td{border:3px solid black;
+}
+th{border:3px solid black;
+}
+
+
+th{background-color:white;
+}
+table{width:50%;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+textarea{
+    border: 6px solid gray;
+}
+
+input type{
+    border: 6px solid gray;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    text-align: center;
+}
+body{
+   background-color:black;
+}
+table, th, td {
+   border: 1px solid black;
+   border-collapse:collapse;
+   height: 30px;
+}
+
+table {
+   width: 75%;
+   table-layout:fixed;
+    background-color:red;
+}
+
+tr:nth-child(even) {
+   background-color:orange;
+    color:black;
+}
+th{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.center{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+
+tr:nth-child(odd) {
+    color:white;
+}
